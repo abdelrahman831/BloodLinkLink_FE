@@ -56,7 +56,7 @@
 
   "scripts": {
     "build": "vite build",
-    "start": "npx serve -s dist -l $PORT"
+    "start": "npx serve -s build -l $PORT"
   }
 }
 
