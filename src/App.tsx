@@ -11,7 +11,8 @@ import { Header } from './components/Header';
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState('dashboard');
-
+console.log('Current Page:', currentPage);
+console.log('Set Current Page Function:', setCurrentPage);
   const renderPage = () => {
     switch (currentPage) {
       case 'dashboard':
